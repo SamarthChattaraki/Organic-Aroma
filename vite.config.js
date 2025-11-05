@@ -5,8 +5,4 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
   base: "/Organic-Aroma/",
-  server: {
-    open: true,
-    port: 3001,
-  },
 });
